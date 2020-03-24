@@ -19,8 +19,6 @@ public class ContactoService {
 
     public Contacto crearContacto(Contacto contacto) {
 
-        System.out.println("/////////////////////////////////////////////7");
-        System.out.println(contacto.toString());
 
         /*if (Objects.nonNull(contacto.getId())) {
             Optional<Contacto> clienteOptional = contactoRepository.findById(contacto.getId());
