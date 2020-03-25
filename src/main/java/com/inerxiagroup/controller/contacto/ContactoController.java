@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.Date;
 
-@CrossOrigin(origins = {"http://localhost:4200"})
+@CrossOrigin(origins = {"https://inerxiagroup.herokuapp.com"})
 @RestController
 @RequestMapping("/api")
 public class ContactoController {
