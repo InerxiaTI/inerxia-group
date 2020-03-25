@@ -35,7 +35,7 @@ public class ContactoController {
         contactoDTO.setFechaEnvio(new Date(System.currentTimeMillis()));
         contactoDTO.setEstado(ContactoEnum.ESPERANDO.toString());
 
-       // enviarMail.enviarMail(this.correoDestino, contactoDTO);
+       enviarMail.enviarMail(this.correoDestino, contactoDTO);
 
         ContactoDTO contactoGuardar = contactoFacade.crearContacto(contactoDTO);
         return ResponseEntity.ok(new StandardResponse<>(StandardResponse.StatusStandardResponse.OK, "contacto.enviar.exito", contactoGuardar));
