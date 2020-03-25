@@ -1,5 +1,5 @@
-create database if not exists db_inerxia;
-use db_inerxia;
+create database if not exists oepkmxa1ekvbx8i7;
+use oepkmxa1ekvbx8i7;
 create table contacto(
 	id int auto_increment not null,
     nombre varchar(100) not null,
@@ -13,3 +13,5 @@ create table contacto(
 
 alter table contacto add estado enum('atendido','esperando','cancelado') after mensaje;
 alter table contacto change column estado estado enum('atendido', 'esperando', 'cancelado')  default 'esperando';
+-- mysql://v88ppjlc6s8e6fh9:m969jds59ifunm3v@o61qijqeuqnj9chh.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/oepkmxa1ekvbx8i7
+-- mysql: // NEWUSER: NEWPASS @ NEWHOST: 3306 / NEWDATABASE
