@@ -11,7 +11,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 import java.util.Optional;
 
-@Repository
+
 public interface ContactoRepository extends JpaRepository<Contacto, Integer> {
     //Optional<Contacto> findByTipoDocumentoAndNumeroDocumento(String tipoDocumento, String numeroDocumento);
 
